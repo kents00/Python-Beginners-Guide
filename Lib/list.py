@@ -152,7 +152,7 @@ print(List_multiply*3)
 
 List_index = ['One', 'Two', 'Three', "Four", "Five", "Segggss!", "Seven"]
 print(List_index.index("One")) # Searching the whole list
-print(List_index.index("One", 0, 2))
+print(List_index.index("One", 0, 2)) # Searching the index 0-2
 
 # sort()
 # sort method used to sorts the list into ascending order
