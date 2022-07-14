@@ -145,7 +145,7 @@ print(Message)
 
 # Integer will never be a string(vice versa)
 # Throws a error says the format code is integer not a string type 
-Error_type = "This will throw and error {0:s}".format("This is a string type")
+Error_type = "This will throw and error {0:d}".format("This is a string type")
 print(Error_type)
 
 # If we change it to 's' which is string that would print the "This is a string type"
