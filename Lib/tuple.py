@@ -30,5 +30,5 @@ print(Tuple_months[-11:-5])
 # Note: tuples are unchangeable, it means that you cannot modify nor add and remove items after the tuple has been created
 
 # Note : tuples allow duplicates, since the tuples are indexed, they can make items with the same values
-Tuples_duplicates = ['One', 'One' , 'Two', 'Two', 'Three', "Four", "Five", "Six", "Seven"]
+Tuples_duplicates = ('One', 'One' , 'Two', 'Two', 'Three', "Four", "Five", "Six", "Seven")
 print(Tuples_duplicates)
