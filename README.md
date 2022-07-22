@@ -11,7 +11,7 @@ I will cover the foundations of Python programming in this repository.
 - [List](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/list.py)
 - [Dictionary](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/dictionary.py)
 - [Input](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/input.py)
-- [Escape Characters](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/esc_chatr.py)
+- [Escape Characters](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/esc_chtr.py)
 - [Condition Statements](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/Condition_Statements.py)
 
 Happy Coding!
