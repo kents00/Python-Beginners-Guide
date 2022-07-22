@@ -190,3 +190,70 @@ for i in Num:
         continue
     print(i)
 
+# Try/Except Statement
+# Try/Except statement is used to catch an exception.
+# Types of Exceptions:
+# 1. AttributeError
+# 2. NameError
+# 3. SyntaxError
+# 4. TypeError
+# 5. IndexError
+# 6. KeyError
+# 7. ValueError
+# 8. ImportError
+# 9. IOError
+# 10. EOFError
+# 11. RuntimeError
+# 12. RecursionError
+# 13. ZeroDivisionError
+# 14. AssertionError
+# 15. Warning
+# 16. DeprecationWarning
+# 17. FutureWarning
+# 18. OverflowWarning
+# 19. PendingDeprecationWarning
+# 20. ImportWarning
+# 21. UnicodeWarning
+# 22. BytesWarning
+
+# The 'try' block lets you test a block of code for errors.
+# The 'except' block lets you handle the error.
+# The 'else' block lets you handle the error if no 'except' block is executed.
+# The 'finally' block lets you execute the code regardless of the result of the 'try' block.
+
+try:
+    print(1/0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+
+try:
+    Age = int(input("Enter your age:"))
+    print("Your age is: ", Age)
+except ValueError:
+    print("You did not enter a number!")
+
+try:
+    Name = input("Enter your name:")
+    print("Your name is: ", Name)
+except NameError: 
+    print("You did not enter a name!")
+
+# Else
+# You can use the else keyword to define a block of code to be executed if no errors were raised:
+try:
+    Country = input("Enter your country:")
+    print("Your country is: ", Country)
+except SyntaxError:
+    print("Something went wrong!")
+else:
+    print("You did not enter a country!")
+
+# Finally
+# The finally block is always executed after the try block and the except block.
+
+try:
+    print(1/0)
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+finally:
+    print("This is always executed!")
