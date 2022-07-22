@@ -159,3 +159,34 @@ while True:
     print("This is a while loop") # This will run forever
     # This will break the loop
     break
+
+# Break Statement
+# Break statement is used to break out of a loop.
+# Example
+
+for i in range(10):
+    if i == 6:
+        print("This is the number 6")
+        break
+    print(i)
+
+List_2 = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
+
+while List_2:
+    print(List_2.pop())
+    if List_2.pop() == "Five":
+        print("Five is the best!")
+        break 
+
+# Continue Statement
+# Continue statement is used to skip the current iteration and continue with the next iteration.
+# Example
+
+Num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for i in Num:
+    if i == 6:
+        print("This is the number 6")
+        continue
+    print(i)
+
