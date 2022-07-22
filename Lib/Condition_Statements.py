@@ -114,11 +114,48 @@ for MyList in List:
     print(MyList)
 
 
-List_1 = ["One", "Two", "Three", "Four", "Five"]
+List_1 = ["One", "Two", "Three", "Four", "Five", "THis is the LAST"]
 
 for MyList_1 in List_1:
     print(MyList_1)
     if MyList_1 == "Three":
         print("Three is the best!")
         break
+for This_list in List_1:
+    print(This_list)
+    if This_list == "Three":
+        print("Three is the best!")
+        continue
 
+# We can display the index of the list, using enmerate() function
+
+for index, value in enumerate(List_1):
+    print(index, value)
+
+# We can use the range() function to loop over a series of numbers
+
+for i in range(10):
+    print("This is a string")
+
+# We can also make a parameter in the range()
+
+for x in range(5, 11):
+    print(x)
+
+for y in range(2, 10, 2):
+    print(y) # prints 2, 4, 6, 8
+
+
+# While Loop
+# While loop is used to iterate over a condition until the condition is False.
+
+count = 5
+
+while count > 0:
+    print("Count is: ", count)
+    count -= 1
+
+while True:
+    print("This is a while loop") # This will run forever
+    # This will break the loop
+    break
