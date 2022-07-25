@@ -13,5 +13,6 @@ I will cover the foundations of Python programming in this repository.
 - [Input](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/input.py)
 - [Escape Characters](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/esc_chtr.py)
 - [Condition Statements](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/Condition_Statements.py)
+- [Functions and Modules](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/Func_and_Modls.py)
 
 Happy Coding!
