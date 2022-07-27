@@ -22,6 +22,9 @@ the name of the function and “Hello World” is the parameter.
 # The function body is enclosed in round brakets.
 # Example
 
+from email import message
+
+
 def my_function():
      print("Hello from a function")
 #
@@ -133,3 +136,54 @@ def Reduce_Example(x):
     return x + 10
 
 print(Reduce_Example(15))
+
+
+# Variable Scope
+# The scope of a variable is the part of the program where the variable is defined.
+# There are two types of scopes: local and global.
+
+# Local Scope
+# Any variable declared inside a function is only accessible within the function. These are known as local variables.
+
+# Global Scope
+# Any variable declared outside of a function is accessible within any function. These are known as global variables.
+
+# Example Local Scope
+def Local():
+    x = 10 # This will print the local variable x
+    print(x)
+
+# Nested Local Scope Function 
+def Local_01():
+    x = 10
+    def Local_02(): # The local variable can be accessed from a function within the function
+        print(x)
+    Local_02()
+
+# Example Global Scope
+x = 10
+def Global():
+    print(x) # Anyone can access the global variable x
+
+Global()
+
+
+c = 100
+def Global_01():
+    c = 90
+    print(c)
+
+Global_01() # This will prinnt local variable c (90)
+print(c) # This will print global c (100)
+
+# Example Giving an Errors 
+
+This_is_global = "This is global"
+
+def Local_scope():
+    This_is_local = "This is local"
+    print(This_is_local)
+    print(This_is_global)
+
+print(This_is_local) # This will give an error because this_is_local is not defined as a global variable
+Local_scope()
