@@ -22,9 +22,6 @@ the name of the function and “Hello World” is the parameter.
 # The function body is enclosed in round brakets.
 # Example
 
-from email import message
-
-
 def my_function():
      print("Hello from a function")
 #
