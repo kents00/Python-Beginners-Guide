@@ -1,5 +1,13 @@
 This is an txt files read by buffer size.This is the very last line
-Alfred
+This is the very last lineAlfred
+Bert
+Cindy
+Dennis
+This is the very last lineAlfred
+Bert
+Cindy
+Dennis
+This is the very last lineAlfred
 Bert
 Cindy
 Dennis

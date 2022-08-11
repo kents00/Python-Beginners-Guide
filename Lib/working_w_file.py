@@ -17,7 +17,7 @@ Open_file.close() # This is important to close the file
 
 
 Append_file = open("pymodules/Working_files.txt", "a")
-Append_file.write("This is the very last line\n") # This is write a line of text to the file
+Append_file.write("This is the very last line") # This is write a line of text to the file
 Append_file.close()
 
 
@@ -26,8 +26,8 @@ with open("pymodules/Working_files.txt", "a") as OP:
     Items = ["Alfred", "Bert", "Cindy", "Dennis"]
     for item in Items:
         OP.write(item + "\n")
-    print("Done")
     OP.close()
+    print("Done")
 
 
 # Opening and Reading text files using Buffer Size
@@ -42,9 +42,30 @@ Open_file = open("pymodules/Working_files.txt", "r")
 print(Open_file.read(10))
 
 
-# Modes
+# Opening, Reading and Writing Binary Files
+'''
+Binary files refer to any file that contains non-text, such as image or video
+files. To work with binary files, we simply use the rb or wb mode
+'''
+# Duplicates images
+input_file = open("convert_binary.jpg", 'rb')
+output_file = open("convert_binary01.jpg", "wb")
 
-    # r: Read 
+
+# Deleting and Renaming Files
+'''
+Two other useful functions we need to learn when working with files are
+the remove() and rename() functions. These functions are available in
+the os module and have to be imported before we can use them.
+'''
+import os
+
+os.rename("pymodules/Working_files.txt", "pymodules/Working_files01.txt")
+os.remove("pymodules/Working_files01.txt")
+
+# Modes open/write files
+
+    # r: Read
     # w: Write
     # a: Append
     # r+: Read and Write
