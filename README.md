@@ -15,5 +15,6 @@ I will cover the foundations of Python programming in this repository.
 - [Condition Statements](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/Condition_Statements.py)
 - [Functions and Modules](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/Func_and_Modls.py)
 - [Working with Modules](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/modules.py)
+- [Working with Files](https://github.com/kents00/Python-Beginners-Guide/blob/main/Lib/working_w_file.py)
 
 Happy Coding!
